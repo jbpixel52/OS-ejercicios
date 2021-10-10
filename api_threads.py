@@ -4,7 +4,7 @@ import threading  # threading for creating threads
 from tmdbv3api import Movie, TMDb
 tmdb = TMDb()
 # this is my own api key
-tmdb.api_key = 'd831e096844d9299df8c981c70143094'
+tmdb.api_key = 'obfuscated'
 # declares language to search movies in
 tmdb.language = 'en'
 # this makes it so the response from the api is printed
